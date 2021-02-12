@@ -21,9 +21,15 @@ public class Principal {
 		
 		// Salda√ß√£o espec√≠fica para o nome lido. 
 		System.out.printf("Ol√° %s", nome);
+		
+		// Perguntar a idade
+		System.out.printf("%s, qual È a sua idade?", nome);
+		
+		// Ler idade
+		Integer idade = in.nextInt();
+		
+		System.out.printf("%d! Puxa! Como vocÍ È jovem!", idade);
 		in.close();
-		
-		
 	}
 
 }
