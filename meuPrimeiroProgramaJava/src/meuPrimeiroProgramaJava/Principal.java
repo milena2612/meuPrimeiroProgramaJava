@@ -23,7 +23,6 @@ public class Principal {
 		System.out.printf("Olá %s", nome);
 		in.close();
 		
-		//  Nota: implementar leitura de idade e exibi-la.
 		
 	}
 
